@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer</title>
+    <link rel="stylesheet" href="css/customer.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <style>
+        .slider {
+            position: absolute;
+            width: 100%;
+            height: 500px;
+            animation: slider 5s infinite;
+
+        }
+
+        @keyframes slider {
+            0% {
+                background: url("img/h1-sl1.jpg") center center;
+            }
+            25% {
+                background: url("img/h1-sl3.jpg") center center;
+            }
+            50% {
+                background: url("img/h2-sl2-1.jpg") center center;
+            }
+            75% {
+                background: url("img/h1-sl1.jpg") center center;
+            }
+            100% {
+                background: url("img/h1-sl3.jpg") center center;
+            }
+        }
+
+        header ul {
+            position: absolute;
+            top: 25%;
+            right: 2%;
+            list-style: none;
+            color: #ffffff;
+            margin: 0;
+        }
+
+        header ul li {
+            display: inline-block;
+            padding-left: 10px;
+        }
+        header ul li a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        main {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 10%;
+        }
+
+        .section1 {
+            position: absolute;
+            top: 530px;
+            width: 100%;
+            text-align: -moz-left;
+            margin: 19px;
+        }
+
+        .h3 {
+            position: absolute;
+            top: 500px;
+            width: 100%;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<header class="headerimage">
+    <h3>SkyHorizon</h3>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>Resevations</li>
+        <li>Gallery</li>
+        <li><a href="CustomerForm.html"> Customer</a></li>
+        <li><a href="ItemForm.html"> Shop</a></li>
+        <li><a href="OderForm.html"> Orders</a></li>
+        <li>Contact</li>
+    </ul>
+</header>
+
+<main>
+    <div class="slider"></div>
+    <h3 class="h3">Home > <b>Customer</b></h3>
+    <section class="section1">
+        <div>
+            <p>Customer Search</p>
+            <input type="text" placeholder="Input Name/Nic/Tp Here" style="height: 4.5vh;width:35vw;">
+            <br>
+            <div style="padding-top: 10px;padding-right: 10px;">
+                <button type="submit">Search</button>
+                <select>
+                    <option>
+                        Name
+                    </option>
+                    <option>
+                        NIC
+                    </option>
+                    <option>
+                        TP
+                    </option>
+                </select>
+            </div>
+        </div>
+        <div style="position: absolute;right: 2%;top: 0;">
+            <br>
+            <button type="button" style="background-color: blue;color: white;">New Customer</button>&nbsp;&nbsp;
+            <button type="button" style="background-color: darkgoldenrod;color: white;">View Customes</button></div>
+        <div>
+            <br>
+            <button type="button" style="background-color: red;color: white;">Delete</button>
+            <button type="button" style="background-color: darkgoldenrod;color: white;">Edit</button>
+            <button type="button" style="background-color: blue;color: white;">Details</button>
+            <button type="button" style="background-color: green;color: white;">Clear</button>
+            <br>
+        </div>
+        <table><br>
+            <thead style="background: #00bfa5;color: white;">
+            <tr>
+                <th>Customer Name</th>
+                <th>Age</th>
+                <th>Tp</th>
+                <th>Salary</th>
+            </tr>
+            </thead>
+            <tbody style="background-color:#1c7430;color: white;color: white;">
+            <tr>
+                <td>Madhusha</td>
+                <td>20</td>
+                <td>0716035826</td>
+                <td>rs:85000</td>
+            </tr>
+            <tr>
+                <td>Madhusha</td>
+                <td>20</td>
+                <td>0716035826</td>
+                <td>rs:85000</td>
+            </tr>
+            <tr>
+                <td>Madhusha</td>
+                <td>20</td>
+                <td>0716035826</td>
+                <td>rs:85000</td>
+            </tr>
+            <tr>
+                <td>Madhusha</td>
+                <td>20</td>
+                <td>0716035826</td>
+                <td>rs:85000</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+</body>
+</html>

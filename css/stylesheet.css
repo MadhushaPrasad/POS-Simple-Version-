@@ -1,0 +1,67 @@
+
+.headerimage {
+    position: fixed;
+    background-image: url("../img/h1-sl3.jpg");
+    top: 0;
+    width: 100%;
+    height:10%;
+    color: aliceblue;
+    z-index: 5;
+}
+
+header h3 {
+    margin: 0;
+}
+
+ul {
+    position: absolute;
+    right: 10px;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+header div {
+    position: relative;
+    top: 10%;
+}
+
+main {
+    position: relative;
+}
+
+main article {
+    position: relative;
+}
+
+.mainHeader {
+    width: 100%;
+    height: 250px;
+    background-color: #343a40;
+    color: #FFFFFF;
+
+}
+.mainHeader-div{
+    /*position: relative;*/
+    text-align: center;
+    width: 25%;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #343a40 ;
+    /*bottom:-240vh;*/
+    text-align: center;
+}
